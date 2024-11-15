@@ -51,13 +51,13 @@ function App() {
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-4 drop-shadow-lg">
-            Dragon Ball Characters
+            Personajes de Dragon Ball
           </h1>
           <div className="relative max-w-md mx-auto">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
             <input
               type="text"
-              placeholder="Search characters..."
+              placeholder="Buscar personajes..."
               className="w-full pl-10 pr-4 py-2 rounded-lg bg-white/90 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-orange-300"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
